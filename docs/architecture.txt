@@ -1,0 +1,19 @@
+ArdPy_1.0/
+│
+├── docs/                		# Documentación del proyecto
+│   └── architecture.txt 		# Explicación de la arquitectura general del proyecto
+│
+├── resources/           		# Archivos adicionales como imágenes, gráficos, etc.
+│   └── images/          		# Imágenes relacionadas con el proyecto (por ejemplo, iconos o diagramas)
+│
+├── src/                 		# Código fuente del proyecto
+│   ├── arduino/StandardFirmata	# Código específico de Arduino
+│   │   └── LICENSE.txt  		# Licencia StandardFirmata
+│   │   └── StandardFirmata.ino # Librería utilizada (archivo .ino)
+│   │
+│   ├── python/          		# Código Python
+│   │   ├── main.py      		# Archivo principal de Python para ejecutar el proyecto
+│
+├── tests/               		# Pruebas y tests
+│   ├── multiple_leds.py		# Tests multiple_leds
+│   └── rgb_led.py   			# Tests rgb_led
